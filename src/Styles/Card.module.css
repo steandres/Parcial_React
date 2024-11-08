@@ -1,0 +1,23 @@
+/* Card.module.css */
+
+.cardContainer {
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 16px; /* Espaciado interno */
+    margin: 20px auto; /* Margen superior e inferior, centrado horizontalmente */
+    width: 80%; /* Ancho del contenedor */
+}
+
+.cardContent {
+    margin-bottom: 12px; /* Espacio entre los elementos dentro de la card */
+}
+
+.cardContent label {
+    display: block; /* Etiquetas en bloque */
+    margin-bottom: 4px; /* Espacio debajo de las etiquetas */
+    font-weight: bold; /* Negrita para las etiquetas */
+}
+
+.cardContent p {
+    margin: 4px 0; /* Margen superior e inferior para párrafos */
+}
